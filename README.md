@@ -1,0 +1,2 @@
+# tajribalar_uchun
+tajribalar
