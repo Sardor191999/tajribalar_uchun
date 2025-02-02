@@ -5,6 +5,7 @@ app_name = "blog"  # Shu qatordan foydalanish muhim!
 
 urlpatterns = [
     path("", views.PostListView.as_view(), name="post_list"),
-    path("<int:year>/<int:month>/<int:day>/<slug:post>/", views.post_detail, name="post_detail"),
+    path("<int:year>/<int:month>/<int:day>/<slug:slug>/", views.post_detail, name="post_detail"),
+
 ]
 
