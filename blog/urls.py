@@ -18,6 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("blog/", include("blogapp.urls", namespace="blog")),  # Namespace to‘g‘ri berilgan!
+    path("blog/", include("blogapp.urls", namespace="blog_app")),
 ]
 
